@@ -51,6 +51,9 @@ npm run dev
 
 
 ```
+![Image 1](public/images/installation1.png)
+![Image 2](public/images/installation2.png)
+![Image 3](public/images/installation3.png)
 **Note:** This README represents the vision and proposal for the Sahitya Sathi project and may not fully reflect the final implementation details.
 
 For more updates and in-depth information, please refer to the project's repository and documentation.
