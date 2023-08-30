@@ -32,9 +32,6 @@ As technology advances, projects like Sahitya Sathi light the way, pushing the b
 
 This project proposal was lovingly crafted by Rohan Poudel as part of a 1st-year C programming course.
 
-**Note:** This README represents the vision and proposal for the Sahitya Sathi project and may not fully reflect the final implementation details.
-
-For more updates and in-depth information, please refer to the project's repository and documentation.
 
 ## Installation
 
@@ -51,3 +48,9 @@ Open your terminal and run the following command to install My Awesome npm Packa
 ```bash
 npm install
 npm run dev
+
+
+
+**Note:** This README represents the vision and proposal for the Sahitya Sathi project and may not fully reflect the final implementation details.
+
+For more updates and in-depth information, please refer to the project's repository and documentation.
