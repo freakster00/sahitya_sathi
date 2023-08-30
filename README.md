@@ -35,3 +35,19 @@ This project proposal was lovingly crafted by Rohan Poudel as part of a 1st-year
 **Note:** This README represents the vision and proposal for the Sahitya Sathi project and may not fully reflect the final implementation details.
 
 For more updates and in-depth information, please refer to the project's repository and documentation.
+
+## Installation
+
+To use My Awesome npm Package in your project, follow these steps:
+
+### Prerequisites
+
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine. If you don't have them, you can download and install them from the official Node.js website: [Node.js Downloads](https://nodejs.org/)
+
+### Step 1: Install My Awesome npm Package
+
+Open your terminal and run the following command to install My Awesome npm Package:
+
+```bash
+npm install
+npm run dev
