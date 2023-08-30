@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node lib/jsonGenerator.js && next dev",
-    "build": "npm audit fix --force && npm install --force && npm install --dev && node lib/jsonGenerator.js && npm run build -- --force",
+    "build": "npm audit fix --force && npm install --force && npm install --dev && node lib/jsonGenerator.js",
     "export": "next build && next export",
     "lint": "next lint",
     "start": "next start"
