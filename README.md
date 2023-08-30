@@ -50,7 +50,7 @@ npm install
 npm run dev
 
 
-
+```
 **Note:** This README represents the vision and proposal for the Sahitya Sathi project and may not fully reflect the final implementation details.
 
 For more updates and in-depth information, please refer to the project's repository and documentation.
