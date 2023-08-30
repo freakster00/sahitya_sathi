@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const PostSingle = ({ post, posts, authors, slug }) => {
   const { frontmatter, content, mdxContent } = post;
-  let { description, title, date, image, categories, tags } = frontmatter;
+  let { description, title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const similarPosts = similerItems(post, posts, slug);
 
@@ -77,7 +77,7 @@ const PostSingle = ({ post, posts, authors, slug }) => {
             </div>
             <div className="flex flex-wrap items-center justify-between">
               <ul className="mr-4 mb-4 space-x-3">
-                {tags.map((tag, i) => (
+                {/* {tags.map((tag, i) => (
                   <li className="inline-block" key={`tag-${i}`}>
                     <Link
                       href={`/tags/${slugify(tag)}`}
@@ -86,7 +86,7 @@ const PostSingle = ({ post, posts, authors, slug }) => {
                       #{humanize(tag)}
                     </Link>
                   </li>
-                ))}
+                ))} */}
               </ul>
               <Share
                 className="social-share mb-4"

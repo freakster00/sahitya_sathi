@@ -23,11 +23,8 @@ const SearchPage = ({ authors }) => {
       )
     ) {
       return product;
-    } else if (
-      product.frontmatter.tags.find((tag) => slugify(tag).includes(keyword))
-    ) {
-      return product;
-    } else if (slugify(product.content).includes(keyword)) {
+    
+    } else (slugify(product.content).includes(keyword)) {
       return product;
     }
   });
